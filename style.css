@@ -1,0 +1,350 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#f7f7f7;  
+    font-family: 'Barlow', sans-serif;
+
+} 
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color:     #3b5998;
+
+}
+
+.login{  
+  display: flex;
+  width: 25em;  
+  height: 10em;
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 50px;  
+  background:#3b5998; 
+  border-radius: 15px 15px 0px 0px ;      
+} 
+
+
+
+h2 {
+  text-align: center;
+  margin-top:5em;
+  color:  black;
+}
+
+#username {
+  margin-top: 0.6em;
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+  margin-left: 3em;
+}
+
+#password_login{
+  margin-top: 0.6em;
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+  margin-bottom: 1em;
+  margin-left: 3em;
+}
+
+
+
+#loginbutton{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 15px;
+  color: blue;  
+  background-color: #8b9dc3;
+  margin-left: 3.4em;
+
+
+}
+
+#sub-container {
+
+  display: :inline-block;
+  text-align: center;
+  
+
+
+}
+
+#registerbutton {
+  height: 30px;  
+  border: none;  
+  color: blue; 
+  width: 37.5em;
+  background-color: #dfe3ee; 
+  border-radius: 0 0 15px 15px;
+  margin:auto;
+
+}
+
+h3 {
+  padding-left: 1em;
+}
+
+/*reference https://www.w3schools.com/css/css_form.asp */
+#register input[type=text], select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#register input[type=password], select {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+#register input[type=submit] {
+    border: none;
+    background-color: #45a049;
+    color: White;
+    padding: 10px;
+    border-radius: 5px;
+    width:25%;
+
+}
+
+#register {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#submitbutton {
+    display: inline-block;
+    width:100%;
+    text-align: center;
+
+
+}
+
+.bottomdiv {
+  display: inline-block;
+  width:100%;
+  position: absolute;
+  bottom:0;
+  text-align: center;
+ 
+
+}
+
+#container {
+
+  text-align:center;
+
+}
+
+#main {
+  background-color:   #f7f7f7;
+  min-height: 50vh;
+  text-align: center;
+
+}
+
+.flex-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+   
+}
+.flex-container > div {
+  background-color:   #dfe3ee;
+  margin: 10px;
+  padding: 5em;
+  font-size: 30px;
+  flex-grow:1;
+  text-align:center;
+  width: 33.3%;
+   
+}
+
+.flex-container a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#mainsearch {
+  background-color:   #dfe3ee;
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  height:50vh;
+  margin-top:5em;
+  border-radius: 1em;
+}
+
+#searchbutton {
+  width: 10em;  
+  height: 30px;  
+  border: none;  
+  border-radius: 15px;
+  color: white;  
+  margin-top:2em;
+  background-color: #4CAF50;
+}
+
+#author {
+  margin-top: 2em;
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+
+}
+
+#booktitle {
+ margin-top: 0.6em;
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+
+}
+
+h2 {
+  margin-block-start: 2em;
+}
+
+.mainview {
+
+  background-color:   #dfe3ee;
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  height:50vh;
+  margin-top:5em;
+  border-radius: 1em;
+}
+
+
+.logoutcontainer {
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+
+
+}
+
+.logoutcontainer a{ 
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+#logoutcontainer_search {
+  padding-top: 10em;
+   display: inline-block;
+
+}
+
+#logoutcontainer_search a{
+  font-size: 1.5em;
+  text-decoration: none;
+  
+}
+
+#logout_booksview {
+  display: inline-block;
+  width:100%;
+  text-align:center;
+  margin-top: 2.2em;
+}
+
+#reservecontainer {
+  background-color:   #8b9dc3;
+  border-radius: 0 0 15px 15px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 3em;
+  padding-left:1em;
+  padding-right: 1em;
+}
+
+#reserve {
+  width: 10em;  
+  height: 30px;  
+  border: none;  
+  border-radius: 15px;
+  color: white;  
+  background-color: #4CAF50;
+  margin-bottom: 1em;
+}
+
+#mainreserved {
+    background-color:   #dfe3ee;
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  height:50vh;
+  margin-top:5em;
+  border-radius: 1em;
+
+}
+
+#unreserve {
+  background-color:   #dfe3ee;
+  width:50%;
+  text-align: center;
+  margin: 0 auto;
+  height:50vh;
+  margin-top:5em;
+  border-radius: 1em;
+}
+
+.headerhome {
+  color:white;
+}
+#searchmainview {
+  padding: 2em;
+}
+
+#returntosearch {
+  width: 10em;  
+  height: 30px;  
+  border: none;  
+  border-radius: 15px;
+  color: white;  
+  margin-top:2em;
+  background-color: #4CAF50;
+}
+
+
+
+
+
+
+
+
+
